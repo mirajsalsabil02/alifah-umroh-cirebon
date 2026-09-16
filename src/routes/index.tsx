@@ -137,7 +137,7 @@ function Hero() {
           width={1280}
           height={1600}
           className="h-full w-full object-cover"
-          priority
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary-deep/95 via-primary-deep/80 to-primary-deep/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-primary-deep/70 via-transparent to-primary-deep/40" />
