@@ -130,7 +130,7 @@ function Header() {
 function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0">
         <img
           src={heroKaaba}
           alt="Ka'bah di Masjidil Haram, Makkah"
@@ -143,7 +143,7 @@ function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-primary-deep/70 via-transparent to-primary-deep/40" />
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-gold-soft">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />
